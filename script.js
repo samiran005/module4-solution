@@ -57,13 +57,13 @@ for (let name of names) {
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
   if (firstChar === 'J') {
-    speakWord = "Good Bye";
-    speak(name);
+    // speakWord = "Good Bye";
+    SpeakGoodBye(name);
     // console.log("Good Bye"+" "+name);
     // byeSpeaker.xxxx
   } else {
-    speakWord = "Hello";
-    speak(name);
+    // speakWord = "Hello";
+    SpeakHello(name);
     // console.log("Hello"+" "+name);
     // helloSpeaker.xxxx
   }
